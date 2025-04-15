@@ -2,6 +2,12 @@
 
 A modern, responsive news platform built with **Next.js** and **TailwindCSS**. Inspired by premium editorial layouts with a focus on storytelling, content discovery, and smooth UX.
 
+
+## 🚀 Live Demo
+
+🌍 **Project is live at:**  
+🔗 [https://globia.vercel.app](https://globia.vercel.app)
+
 ## ✨ Features
 
 - 🔥 Fully responsive design (mobile-first)
