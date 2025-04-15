@@ -5,17 +5,17 @@ export default function Footer() {
   return (
   <div>
     {/* Subscribe Section */}
-    <section className="px-4 md:px-20 py-14" id="subscribe">
-        <div className="bg-slate-100 p-8 rounded-xl text-center">
-          <p className="uppercase tracking-widest text-slate-500 text-xs mb-3">Get First Update</p>
-          <h3 className="text-xl font-semibold mb-4">Get the news in front line by <span className="text-blue-500 font-bold">subscribe✍️</span> our latest updates</h3>
+    <section className="px-4 md:px-20 py-8 sm:py-14" id="subscribe">
+        <div className="bg-slate-100 p-4 sm:p-8 rounded-xl text-center">
+          <p className="uppercase tracking-widest text-slate-500 text-xs mb-2 sm:mb-3">Get First Update</p>
+          <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Get the news in front line by <span className="text-blue-500 font-bold">subscribe✍️</span> our latest updates</h3>
           <div className="flex gap-2 max-w-md mx-auto">
             <input
               type="email"
               placeholder="Your email address"
-              className="flex-1 border border-slate-300 px-4 py-2 rounded-md focus:outline-none"
+              className="flex-1 border border-slate-300 px-3 sm:px-4 py-2 rounded-md focus:outline-none text-sm"
             />
-            <button className="bg-blue-500 text-white px-5 py-2 rounded-md cursor-pointer hover:bg-blue-600 transition-colors">Subscribe</button>
+            <button className="bg-blue-500 text-white px-4 sm:px-5 py-2 rounded-md cursor-pointer hover:bg-blue-600 transition-colors text-sm">Subscribe</button>
           </div>
         </div>
       </section>
