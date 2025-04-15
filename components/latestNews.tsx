@@ -53,7 +53,7 @@ export default function LatestNews() {
           {
             source: 'World News',
             logo:"/worldNews.png",
-            src:"/Harvard.webp",
+            src:"/harvard.webp",
             time: '9 hours ago',
             title: "Harvard's $2.2 Billion Funding Frozen For Defying Trump's Campus Demands",
             subtitle: "Harvard University has had its $2.2 billion endowment frozen by the US government, following a decision by the university to defy President Donald Trump's demands to divest from China. The move has sparked a debate over the role of universities in international politics and the impact of US-China relations on higher education.",
