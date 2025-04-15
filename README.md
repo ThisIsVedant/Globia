@@ -1,3 +1,24 @@
+# Globia News UI 📰
+
+A modern, responsive news platform built with **Next.js** and **TailwindCSS**. Inspired by premium editorial layouts with a focus on storytelling, content discovery, and smooth UX.
+
+## ✨ Features
+
+- 🔥 Fully responsive design (mobile-first)
+- 🧭 Smooth scrolling navigation
+- ✍️ "Write News" modal for adding content
+- 📚 Sections: Latest News, Must Read, Stories, Editor’s Pick, Business, Sports
+- 🌐 Social media footer with React Icons
+- 📸 Image-driven layout using `/public` assets
+
+## 🚀 Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+## 🛠️ Getting Started
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
