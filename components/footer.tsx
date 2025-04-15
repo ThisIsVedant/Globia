@@ -1,4 +1,3 @@
-import { Button } from "./ui/button";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import {FaXTwitter} from 'react-icons/fa6';
 
@@ -16,7 +15,7 @@ export default function Footer() {
               placeholder="Your email address"
               className="flex-1 border border-slate-300 px-4 py-2 rounded-md focus:outline-none"
             />
-            <Button className="bg-blue-500 text-white px-5 py-2 rounded-md">Subscribe</Button>
+            <button className="bg-blue-500 text-white px-5 py-2 rounded-md cursor-pointer hover:bg-blue-600 transition-colors">Subscribe</button>
           </div>
         </div>
       </section>
