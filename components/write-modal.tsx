@@ -35,14 +35,19 @@ export default function WriteModal({ isOpen, onClose }: WriteModalProps) {
 
   return (
     <div 
-      className={`fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center transition-opacity duration-300 ${
+      className={`fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center transition-all duration-300 ease-in-out ${
         isClosing ? 'opacity-0' : 'opacity-100'
       }`}
     >
       <div 
-        className={`bg-white/90 rounded-lg p-6 w-full max-w-2xl shadow-xl transition-all duration-300 transform ${
-          isClosing ? 'opacity-0 scale-95' : 'opacity-100 scale-100'
+        className={`bg-white/90 rounded-lg p-6 w-full max-w-2xl shadow-xl transition-all duration-300 ease-out transform ${
+          isClosing 
+            ? 'opacity-0 scale-95 translate-y-4' 
+            : 'opacity-100 scale-100 translate-y-0'
         }`}
+        style={{
+          animation: isOpen && !isClosing ? 'modalSlideUp 0.3s ease-out forwards' : 'none'
+        }}
       >
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold">Write a News Article</h2>
